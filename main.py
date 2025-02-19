@@ -16,7 +16,7 @@ app = FastAPI()
 
 # --------------------- OWASP ZAP Configuration ---------------------
 ZAP_API_KEY = "48cskejggcig3thtlqhm8lm4sm"
-ZAP_BASE_URL = "https://9dbf-103-169-236-163.ngrok-free.app"
+ZAP_BASE_URL = "http://localhost:8080"
 
 # --------------------- Database Configuration (Neon Postgres) ---------------------
 DATABASE_URL = "postgresql+asyncpg://neondb_owner:npg_3qB6RDACeKkJ@ep-black-credit-a8d7lhrf-pooler.eastus2.azure.neon.tech/neondb"
